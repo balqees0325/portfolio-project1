@@ -32,7 +32,7 @@ li {
 }
 
 /* logo style */
-.display-flex1 {
+.d-flex1 {
   display: flex;
   justify-content: space-between;
   padding: 1rem 3rem 0 0;
@@ -57,7 +57,7 @@ li {
   margin-top: 3.5rem;
 }
 
-.h1 {
+h1 {
   font-size: 3rem;
   padding-bottom: 1rem;
 }
