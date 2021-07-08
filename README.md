@@ -35,7 +35,7 @@ change into the working directory.
 
 ## Live Demo
 
-- Live link(https://balqees0325.github.io/portfolio-project1/index.html)
+- [Live link](https://balqees0325.github.io/portfolio-project1/index.html)
 
 ## 🤝 Contributing
 
