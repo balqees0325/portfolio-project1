@@ -1,8 +1,8 @@
 # Portfolio Project
 
-> Set up a "Hello Microverse" project.
+> Set up a Portfolio project.
 
-![image](https://user-images.githubusercontent.com/66781780/124796792-9d132a00-df62-11eb-9568-d027fd966862.png)
+![image](https://user-images.githubusercontent.com/66781780/124994067-543c9d80-e056-11eb-94f7-b0c6dc6e3965.png)
 
 In this project, we will set up a "A portfolio-project" repository. No complex coding is required for this exercise. Our goal here is to master all of the tools and best practices we learned about in previous steps.
 
@@ -19,7 +19,7 @@ To get a local copy up and running follow these simple example steps.
 
 change into the working directory.
 
-`cd copy-admission-trial`
+`cd porfolio project`
 
 ### Prerequisites
 
@@ -34,8 +34,6 @@ change into the working directory.
 - LinkedIn: [Balqees Ibrahim](https://www.linkedin.com/in/balqees-ibrahim-911a81204/)
 
 ## Live Demo
-
-[Live Demo](https://github.com/balqees0325)
 
 ## 🤝 Contributing
 
