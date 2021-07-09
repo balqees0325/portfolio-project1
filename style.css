@@ -87,13 +87,17 @@ h1 {
 /* end of intro style */
 
 /* article styling */
-article {
+section {
   display: grid;
   grid-template-columns: 1fr;
 }
 
+.recent-work h2 {
+  padding: 2rem 0 0 1rem;
+}
+
 .section2 {
-  margin: 5rem 1rem 1rem 1rem;
+  margin: 4rem 1rem 1rem 1rem;
   background-color: #fff;
   padding: 1rem;
   border: 1px solid #dfe1e6;
