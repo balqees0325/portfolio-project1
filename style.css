@@ -141,12 +141,11 @@ article {
 .live-source a {
   display: flex;
   align-self: flex-start;
-  color:#396df2;
+  color: #396df2;
   border-radius: 6px;
   border: 1px solid #396df2;
   padding: 0.6rem 1rem;
   margin: 0.8rem 0;
-  word-wrap: none;
   white-space: nowrap;
   background-color: #fff;
   text-align: center;
