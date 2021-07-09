@@ -83,6 +83,7 @@ h1 {
 .social-icons a {
   padding: 0 1.5rem 0 0;
 }
+
 /* end of intro style */
 
 /* article styling */
@@ -98,6 +99,7 @@ article {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
+
 .section2 .showcase-img {
   width: 100%;
 }
@@ -139,7 +141,7 @@ article {
 .live-source a {
   display: flex;
   align-self: flex-start;
-  color: #396df2;
+  color:#396df2;
   border-radius: 6px;
   border: 1px solid #396df2;
   padding: 0.6rem 1rem;
