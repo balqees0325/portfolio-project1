@@ -157,3 +157,57 @@ article {
   background-color: #396df2;
   color: #fff;
 }
+
+/* about me section style */
+
+.about-me {
+  background-color: #fff;
+  margin-top: 7.5rem;
+  border-top-right-radius: 60px;
+  padding: 6rem 1rem 10rem 1rem;
+  line-height: 2rem;
+}
+
+.about-me h2 {
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+  padding-bottom: 1rem;
+}
+
+/* social icons */
+.social {
+  padding-left: 1rem;
+}
+
+.list-items {
+  position: relative;
+}
+
+.list-items a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem 1rem 1rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  color: #000;
+}
+
+/* inner list items */
+
+.inner-list-items li {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0 1rem 2rem;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin: 1rem 0 1rem 1rem;
+}
+
+.inner-list-items li span {
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 20px;
+  padding-left: 1.5rem;
+}
