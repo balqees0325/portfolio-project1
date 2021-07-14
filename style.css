@@ -219,8 +219,7 @@ section {
 /* contact form style */
 
 .form-contain {
-  background: #6070ff
-    url("images/contact form shapes-mobile@2x.svg");
+  background: #6070ff, url("images/contact form shapes-mobile@2x.svg");
   background-size: cover;
   background-repeat: no-repeat;
 }
