@@ -16,17 +16,24 @@
   <body class="bg-secondary">
     <div class="container-fluid">
       <!-- logo & hamburger menu -->
-      <header class="logo-menubar d-flex1">
+      <header class="logo-menubar d-flex-row">
         <img src="./images/logo.svg" alt="logo" />
         <img
           class="menu-icon"
           src="./images/menu.svg"
           alt="menu-icon"
         />
+        <nav class="header-nav">
+          <ul class="nav-ul d-flex-row">
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </nav>
       </header>
       <!-- end of logo & hamburger menu -->
       <!-- main body start -->
-      <main class="main d-flex2">
+      <article class="hero">
         <div class="intro">
           <h1>
             I’m Balqees Ibrahim Glad to see you!
@@ -81,20 +88,22 @@
             />
           </a>
         </div>
-      </main>
+      </article>
     </div>
     <!-- end of first container -->
     <!-- beginning of section -->
+    <main class="grid">
     <section>
       <header class="recent-work">
         <h2>My Recent work</h2>
       </header>
-      <section class="section2 d-flex2">
+      <section class="one section2 d-flex-column">
         <img
           src="./images/Snapshoot-Portfolio.svg"
           alt="showcase-image"
-          class="showcase-img"
+          class=" img showcase-img"
         />
+        <article>
         <h2>Tonic</h2>
         <div class="article">
           <p class="canopy">CANOPY</p>
@@ -122,15 +131,17 @@
         <button type="button" class="action-btn">
           See Project
         </button>
+      </article>
       </section>
       <!-- end of showcase1 -->
 
-      <section class="section2 d-flex2">
+      <section class="two section2 d-flex-column">
         <img
           src="./images/Snapshoot-Portfolio2.svg"
           alt="showcase2-image"
-          class="showcase-img"
+          class="img showcase-img"
         />
+        <article>
         <h2>Multi-Post Stories</h2>
         <div class="article">
           <p class="canopy">CANOPY</p>
@@ -158,16 +169,23 @@
         <button type="button" class="action-btn">
           See Project
         </button>
+      </article>
       </section>
 
       <!-- end of showcase2 -->
 
-      <section class="section2 d-flex2">
+      <section class="three section2 d-flex-column">
         <img
           src="./images/Snapshoot-Portfolio3.svg"
           alt="showcase3-image"
-          class="showcase-img"
+          class="yoga"
         />
+        <img
+          src="./images/desktop-snapshoot.svg"
+          alt="showcase3-image"
+          class="img desktop-snapshoot showcase-img"
+        />
+        <article>
         <h2>Tonic</h2>
         <div class="article">
           <p class="canopy">CANOPY</p>
@@ -195,16 +213,18 @@
         <button type="button" class="action-btn">
           See Project
         </button>
+      </article>
       </section>
 
       <!-- end of showcase3 -->
 
-      <section class="section2 d-flex2">
+      <section class="four section2 d-flex-column">
         <img
           src="./images/art-printing.svg"
           alt="showcase4-image"
-          class="showcase-img"
+          class="img showcase-img"
         />
+        <article>
         <h2>Multi-Post Stories</h2>
         <div class="article">
           <p class="canopy">CANOPY</p>
@@ -232,14 +252,15 @@
         <button type="button" class="action-btn">
           See Project
         </button>
+      </article>
       </section>
       <!-- end of showcase4 -->
     </section>
     <!-- end of section -->
 
     <!-- beginning of about -->
-    <section>
-      <div class="about-me d-flex2">
+    <section class="five d-flex-column about">
+      <article class="about-me ">
         <h2>About Myself</h2>
         <p>
           Hello I’m a software developer! I can
@@ -249,11 +270,11 @@
           have a project you need coded, don’t
           hestiate to contact me.
         </p>
-        <header>
+        <h3>
           <a class="connect" href="#"
             >let's connect</a
           >
-        </header>
+        </h3>
         <!-- social icons -->
         <ul class="social-icons social">
           <li>
@@ -309,8 +330,9 @@
         <button type="button" class="action-btn">
           Get my resume
         </button>
+      </article>
         <!-- list items -->
-        <ul class="nav-items d-flex2">
+        <ul class="nav-items d-flex">
           <li class="list-items">
             <a href="#">
               <strong>Langguages</strong>
@@ -368,12 +390,11 @@
           </li>
           <!-- end of each main list item -->
         </ul>
-      </div>
     </section>
     <!-- end of about -->
 
     <!-- beginning of contact page with pairs -->
-    <section class="form-container">
+    <section class="six form-container">
       <div class="contact-header">
         <h2>Contact me</h2>
         <p>
@@ -417,7 +438,7 @@
             ></textarea>
           </li>
           <li>
-            <button type="submit">
+            <button class="btn" type="submit">
               Get In Touch
             </button>
           </li>
@@ -425,5 +446,6 @@
       </form>
     </section>
     <!-- end of contact form -->
+  </main>
   </body>
 </html>
