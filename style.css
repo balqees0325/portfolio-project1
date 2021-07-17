@@ -352,11 +352,15 @@ textarea::placeholder {
   }
 
   .brand-logo {
+    animation-name: none;
+  }
+  
+  .brand-logo:hover {
     animation-name: rotate;
     animation-duration: 0.7s;
     animation-direction: reverse;
   }
-  
+
   @keyframes rotate {
     0% {
       transform: rotate(0);
@@ -415,6 +419,24 @@ textarea::placeholder {
   .flex-container {
     display: flex;
     flex-direction: column;
+  }
+
+  @keyframes shaky {
+    0% {
+      transform: translateX(-15%);
+    }
+
+    25% {
+      transform: translateX(15%);
+    }
+
+    50% {
+      transform: translateX(-5%);
+    }
+
+    100% {
+      transform: translateX(5%);
+    }
   }
 
   .d-flex-column {
@@ -497,6 +519,10 @@ textarea::placeholder {
     padding: 0.35rem 1rem;
     color: #6070ff;
     font-weight: 500;
+  }
+
+  .shaky:hover {
+    animation: shaky 1.5s ease-in-out;
   }
 
   .article img {
