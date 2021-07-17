@@ -31,6 +31,21 @@ li {
   box-shadow: 1px 0 1px #fff;
 }
 
+.brand-logo {
+  animation-name: rotate;
+  animation-duration: 0.7s;
+  animation-direction: reverse;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .header-nav {
   display: none;
 }
@@ -47,7 +62,7 @@ li {
 .hero {
   width: 100%;
   padding: 1rem;
-  padding-left: 5rem;
+  /* padding-left: 5rem; */
   background-image: url("./images/header-shapes-mobile.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -181,11 +196,13 @@ h1 {
   text-align: center;
   letter-spacing: 0.03em;
   font-weight: bold;
+  transition: all ease-in-out transform .5s;
 }
 
 .action-btn:hover {
   background-color: #396df2;
   color: #fff;
+  transform: skew(3deg, 3deg);
 }
 
 /* about me section style */
@@ -262,6 +279,7 @@ h1 {
   text-align: center;
   margin: 5rem auto 2rem auto;
   width: 80%;
+  transition: all ease-in-out transform .5s;
 }
 
 .contact-header h2 {
@@ -272,6 +290,11 @@ h1 {
 .contact-header p {
   font-size: 1.2rem;
   color: #ebebff;
+}
+
+.contact-header:hover {
+  transform: skew(180deg, 180deg);
+  margin-left: 30%;
 }
 
 form {
@@ -328,6 +351,21 @@ textarea::placeholder {
     box-shadow: 1px 0 1px #fff;
   }
 
+  .brand-logo {
+    animation-name: rotate;
+    animation-duration: 0.7s;
+    animation-direction: reverse;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
   .logo-menubar {
     display: flex;
   }
@@ -362,6 +400,10 @@ textarea::placeholder {
   .intro p {
     width: 60%;
     padding-bottom: 1.5rem;
+  }
+
+  .recent-work {
+    margin: 2% 5% 0 5%;
   }
 
   /* article styling */
