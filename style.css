@@ -41,6 +41,7 @@ li {
   0% {
     transform: rotate(0);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -62,6 +63,7 @@ li {
 .hero {
   width: 100%;
   padding: 1rem;
+
   /* padding-left: 5rem; */
   background-image: url("./images/header-shapes-mobile.svg");
   background-repeat: no-repeat;
@@ -196,7 +198,7 @@ h1 {
   text-align: center;
   letter-spacing: 0.03em;
   font-weight: bold;
-  transition: all ease-in-out transform .5s;
+  transition: all ease-in-out 0.5s;
 }
 
 .action-btn:hover {
@@ -279,7 +281,7 @@ h1 {
   text-align: center;
   margin: 5rem auto 2rem auto;
   width: 80%;
-  transition: all ease-in-out transform .5s;
+  transition: all ease-in-out 0.5s;
 }
 
 .contact-header h2 {
@@ -356,11 +358,12 @@ textarea::placeholder {
     animation-duration: 0.7s;
     animation-direction: reverse;
   }
-  
+
   @keyframes rotate {
     0% {
       transform: rotate(0);
     }
+
     100% {
       transform: rotate(360deg);
     }
