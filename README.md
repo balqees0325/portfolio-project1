@@ -2,7 +2,8 @@
 
 > Set up a Portfolio project.
 
-![image](https://user-images.githubusercontent.com/66781780/124994067-543c9d80-e056-11eb-94f7-b0c6dc6e3965.png)
+![image](https://user-images.githubusercontent.com/66781780/126206944-cc62730f-56ae-4980-b2ac-206b5ff6044c.png)
+
 
 In this project, we will set up a "A portfolio-project" repository. No complex coding is required for this exercise. Our goal here is to master all of the tools and best practices we learned about in previous steps.
 
