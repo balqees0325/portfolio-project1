@@ -295,7 +295,7 @@ h1 {
 }
 
 .contact-header:hover {
-  transform: skew(180deg, 180deg);
+  transform: rotateY(-3deg);
   margin-left: 30%;
 }
 
