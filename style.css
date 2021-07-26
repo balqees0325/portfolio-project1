@@ -51,6 +51,21 @@ li {
   display: none;
 }
 
+/* hamburger toggle */
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.nav-ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 /* logo style */
 .d-flex-row {
   display: flex;
@@ -478,7 +493,7 @@ textarea::placeholder {
     display: none;
   }
 
-  .header-nav,
+  .nav-ul,
   .desktop-snapshoot,
   .inner-list-items {
     display: flex;
