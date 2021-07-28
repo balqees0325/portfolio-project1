@@ -3,25 +3,24 @@
   <head>
     <!-- google analytics -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PLCZQP6HW0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){window.dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-PLCZQP6HW0"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-PLCZQP6HW0');
+      gtag("config", "G-PLCZQP6HW0");
 
-  gtag('config', 'G-PLCZQP6HW0', { 'send_page_view': false });
-</script>
+      gtag("config", "G-PLCZQP6HW0", { send_page_view: false });
+    </script>
     <meta charset="UTF-8" />
-    <meta
-      http-equiv="X-UA-Compatible"
-      content="IE=edge"
-    />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Project1</title>
   </head>
@@ -31,74 +30,66 @@
       <!-- logo & hamburger menu -->
       <header class="logo-menubar d-flex-row">
         <img class="brand-logo" src="./images/logo.svg" alt="logo" />
-        <img
-          class="menu-icon"
-          src="./images/menu.svg"
-          alt="menu-icon"
-        />
         <nav class="header-nav">
           <ul class="nav-ul d-flex-row">
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contacts</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contacts</a></li>
           </ul>
         </nav>
+        <img
+          id="menu-icon"
+          class="menu-icon"
+          src="./images/icon-menu.svg"
+          alt="menu-icon"
+        />
       </header>
+      <div class="nav">
+        <img
+          id="close-icon"
+          class="close-icon"
+          src="./images/icon-close.svg"
+          alt="close-icon"
+        />
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
       <!-- end of logo & hamburger menu -->
       <!-- main body start -->
       <article class="hero">
         <div class="intro">
-          <h1>
-            I’m Balqees Ibrahim Glad to see you!
-          </h1>
+          <h1>I’m Balqees Ibrahim Glad to see you!</h1>
           <p>
-            I’m a software developer! I can help
-            you build a product feature or
-            website. Look through some of my work
-            and experience! If you like what you
-            see and have a project you need coded,
-            don’t hesitate to contact me.
+            I’m a software developer! I can help you build a product feature or
+            website. Look through some of my work and experience! If you like
+            what you see and have a project you need coded, don’t hesitate to
+            contact me.
           </p>
         </div>
-        <a class="connect" href="#"
-          >let's connect</a
-        >
+        <a class="connect" href="#">let's connect</a>
         <div class="social-icons">
           <a href="https://twitter.com/qeescode">
-            <img
-              src="./images/twitter.svg"
-              alt="twitter-icon"
-            />
+            <img src="./images/twitter.svg" alt="twitter-icon" />
           </a>
           <a
             href="https://www.linkedin.com/in/balqees-ibrahim-911a81204/"
             class="p1"
           >
-            <img
-              src="./images/linkedin.svg"
-              alt="linkend-icon"
-            />
+            <img src="./images/linkedin.svg" alt="linkend-icon" />
           </a>
           <a href="#" class="p1">
-            <img
-              src="./images/medium.svg"
-              alt="medium-icon"
-            />
+            <img src="./images/medium.svg" alt="medium-icon" />
           </a>
-          <a
-            href="https://github.com/balqees0325"
-            class="p1"
-          >
-            <img
-              src="./images/github.svg"
-              alt="github-icon"
-            />
+          <a href="https://github.com/balqees0325" class="p1">
+            <img src="./images/github.svg" alt="github-icon" />
           </a>
           <a href="#" class="p1">
-            <img
-              src="./images/hand.svg"
-              alt="icon-image"
-            />
+            <img src="./images/hand.svg" alt="icon-image" />
           </a>
         </div>
       </article>
@@ -109,11 +100,9 @@
       <div class="recent-work">
         <h2>My Recent work</h2>
       </div>
-      <section class="flex-container">
-        <section
-          class="one section2 d-flex-column"
-        >
-        <!-- nothing to -->
+      <section id="portfolio" class="flex-container">
+        <section class="one section2 d-flex-column">
+          <!-- nothing to -->
           <img
             src="./images/Snapshoot-Portfolio.svg"
             alt="showcase-image"
@@ -123,20 +112,13 @@
             <h2>Tonic</h2>
             <div class="article">
               <p class="canopy">CANOPY</p>
-              <img
-                src="./images/Counter.svg"
-                alt="dot"
-              />
+              <img src="./images/Counter.svg" alt="dot" />
               <p>Back End DEv</p>
-              <img
-                src="./images/Counter.svg"
-                alt="dot"
-              />
+              <img src="./images/Counter.svg" alt="dot" />
               <p>2015</p>
             </div>
             <p>
-              A daily selection of privately
-              personalized reads; no accounts or
+              A daily selection of privately personalized reads; no accounts or
               sign-ups required.
             </p>
             <ul class="available-articles">
@@ -144,19 +126,12 @@
               <li class="shaky"><a href="#">css</a></li>
               <li class="shaky"><a href="#">javaScript</a></li>
             </ul>
-            <button
-              type="button"
-              class="action-btn"
-            >
-              See Project
-            </button>
+            <button type="button" class="action-btn">See Project</button>
           </article>
         </section>
         <!-- end of showcase1 -->
 
-        <section
-          class="two section2 d-flex-column"
-        >
+        <section class="two section2 d-flex-column">
           <img
             src="./images/Snapshoot-Portfolio2.svg"
             alt="showcase2-image"
@@ -166,20 +141,13 @@
             <h2>Multi-Post Stories</h2>
             <div class="article">
               <p class="canopy">CANOPY</p>
-              <img
-                src="./images/Counter.svg"
-                alt="dot"
-              />
+              <img src="./images/Counter.svg" alt="dot" />
               <p>Back End DEv</p>
-              <img
-                src="./images/Counter.svg"
-                alt="dot"
-              />
+              <img src="./images/Counter.svg" alt="dot" />
               <p>2015</p>
             </div>
             <p>
-              A daily selection of privately
-              personalized reads; no accounts or
+              A daily selection of privately personalized reads; no accounts or
               sign-ups required.
             </p>
             <ul class="available-articles">
@@ -187,47 +155,29 @@
               <li class="shaky"><a href="#">css</a></li>
               <li class="shaky"><a href="#">javaScript</a></li>
             </ul>
-            <button
-              type="button"
-              class="action-btn"
-            >
-              See Project
-            </button>
+            <button type="button" class="action-btn">See Project</button>
           </article>
         </section>
 
         <!-- end of showcase2 -->
 
-        <section
-          class="three section2 d-flex-column"
-        >
+        <section class="three section2 d-flex-column">
           <img
             src="./images/desktop-snapshoot.svg"
             alt="showcase3-image"
-            class="
-              img
-              desktop-snapshoot
-              showcase-img
-            "
+            class="img desktop-snapshoot showcase-img"
           />
           <article>
             <h2>Tonic</h2>
             <div class="article">
               <p class="canopy">CANOPY</p>
-              <img
-                src="./images/Counter.svg"
-                alt="dot"
-              />
+              <img src="./images/Counter.svg" alt="dot" />
               <p>Back End DEv</p>
-              <img
-                src="./images/Counter.svg"
-                alt="dot"
-              />
+              <img src="./images/Counter.svg" alt="dot" />
               <p>2015</p>
             </div>
             <p>
-              A daily selection of privately
-              personalized reads; no accounts or
+              A daily selection of privately personalized reads; no accounts or
               sign-ups required.
             </p>
             <ul class="available-articles">
@@ -235,20 +185,13 @@
               <li class="shaky"><a href="#">css</a></li>
               <li class="shaky"><a href="#">javaScript</a></li>
             </ul>
-            <button
-              type="button"
-              class="action-btn"
-            >
-              See Project
-            </button>
+            <button type="button" class="action-btn">See Project</button>
           </article>
         </section>
 
         <!-- end of showcase3 -->
 
-        <section
-          class="four section2 d-flex-column"
-        >
+        <section class="four section2 d-flex-column">
           <img
             src="./images/art-printing.svg"
             alt="showcase4-image"
@@ -258,20 +201,13 @@
             <h2>Multi-Post Stories</h2>
             <div class="article">
               <p class="canopy">CANOPY</p>
-              <img
-                src="./images/Counter.svg"
-                alt="dot"
-              />
+              <img src="./images/Counter.svg" alt="dot" />
               <p>Back End DEv</p>
-              <img
-                src="./images/Counter.svg"
-                alt="dot"
-              />
+              <img src="./images/Counter.svg" alt="dot" />
               <p>2015</p>
             </div>
             <p>
-              A daily selection of privately
-              personalized reads; no accounts or
+              A daily selection of privately personalized reads; no accounts or
               sign-ups required.
             </p>
             <ul class="available-articles">
@@ -279,12 +215,7 @@
               <li class="shaky"><a href="#">css</a></li>
               <li class="shaky"><a href="#">javaScript</a></li>
             </ul>
-            <button
-              type="button"
-              class="action-btn"
-            >
-              See Project
-            </button>
+            <button type="button" class="action-btn">See Project</button>
           </article>
         </section>
         <!-- end of showcase4 -->
@@ -292,33 +223,23 @@
       <!-- end of section -->
 
       <!-- beginning of about -->
-      <section class="five d-flex-column about">
+      <section id="about" class="five d-flex-column about">
         <article class="about-me">
           <h2>About Myself</h2>
           <p>
-            Hello I’m a software developer! I can
-            help you build a product , feature or
-            website Look through some of my work
-            and experience! If you like what you
-            see and have a project you need coded,
-            don’t hestiate to contact me.
+            Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hestiate to contact me.
           </p>
           <h3>
-            <a class="connect" href="#"
-              >let's connect</a
-            >
+            <a class="connect" href="#">let's connect</a>
           </h3>
           <!-- social icons -->
           <ul class="social-icons social">
             <li>
-              <a
-                href="https://github.com/balqees0325"
-                class="p1"
-              >
-                <img
-                  src="./images/github.svg"
-                  alt="github-icon"
-                />
+              <a href="https://github.com/balqees0325" class="p1">
+                <img src="./images/github.svg" alt="github-icon" />
               </a>
             </li>
             <li>
@@ -326,78 +247,47 @@
                 href="https://www.linkedin.com/in/balqees-ibrahim-911a81204/"
                 class="p1"
               >
-                <img
-                  src="./images/linkedin.svg"
-                  alt="linkend-icon"
-                />
+                <img src="./images/linkedin.svg" alt="linkend-icon" />
               </a>
             </li>
             <li>
               <a href="#" class="p1">
-                <img
-                  src="./images/hand.svg"
-                  alt="hand-icon"
-                />
+                <img src="./images/hand.svg" alt="hand-icon" />
               </a>
             </li>
             <li>
-              <a
-                href="https://twitter.com/qeescode"
-              >
-                <img
-                  src="./images/twitter.svg"
-                  alt="twitter-icon"
-                />
+              <a href="https://twitter.com/qeescode">
+                <img src="./images/twitter.svg" alt="twitter-icon" />
               </a>
             </li>
             <li>
               <a href="#" class="p1">
-                <img
-                  src="./images/medium.svg"
-                  alt="medium-icon"
-                />
+                <img src="./images/medium.svg" alt="medium-icon" />
               </a>
             </li>
           </ul>
           <!-- end of social icons -->
-          <button
-            type="button"
-            class="action-btn"
-          >
-            Get my resume
-          </button>
+          <button type="button" class="action-btn">Get my resume</button>
         </article>
         <!-- list items -->
         <ul class="nav-items d-flex">
           <li class="list-items">
             <a href="#">
               <strong>Langguages</strong>
-              <img
-                src="./images/arrow-down.svg"
-                alt="arrow-down-icon"
-              />
+              <img src="./images/arrow-down.svg" alt="arrow-down-icon" />
             </a>
             <!-- inner list items for langu -->
             <ul class="inner-list-items">
               <li>
-                <img
-                  src="./images/js.svg"
-                  alt="js-image"
-                />
+                <img src="./images/js.svg" alt="js-image" />
                 <span>JavaScript</span>
               </li>
               <li>
-                <img
-                  src="./images/html.svg"
-                  alt="html-image"
-                />
+                <img src="./images/html.svg" alt="html-image" />
                 <span>HTLM</span>
               </li>
               <li>
-                <img
-                  src="./images/css.svg"
-                  alt="css-image"
-                />
+                <img src="./images/css.svg" alt="css-image" />
                 <span>CSS</span>
               </li>
             </ul>
@@ -406,10 +296,7 @@
           <li class="list-items">
             <a href="#">
               <strong>Frameworks</strong>
-              <img
-                src="./images/arrow-left.svg"
-                alt="arrow-left-icon"
-              />
+              <img src="./images/arrow-left.svg" alt="arrow-left-icon" />
             </a>
             <!-- inner list items for langu -->
           </li>
@@ -417,10 +304,7 @@
           <li class="list-items">
             <a href="#">
               <strong>Skills</strong>
-              <img
-                src="./images/arrow-left.svg"
-                alt="arrow-left-icon"
-              />
+              <img src="./images/arrow-left.svg" alt="arrow-left-icon" />
             </a>
             <!-- inner list items for langu -->
           </li>
@@ -430,21 +314,16 @@
       <!-- end of about -->
 
       <!-- beginning of contact page with pairs -->
-      <section class="six form-container">
+      <section id="contact" class="six form-container">
         <div class="contact-header">
           <h2>Contact me</h2>
           <p>
-            If you have an application you are
-            interested in developing, a feature
-            that you need built or a project that
-            needs coding. I’d love to help with it
-            love what you see.
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d love
+            to help with it love what you see.
           </p>
         </div>
-        <form
-          action="www.qeescode.com"
-          method="POST"
-        >
+        <form action="www.qeescode.com" method="POST">
           <ul class="form-ul">
             <li>
               <input
@@ -477,14 +356,14 @@
               ></textarea>
             </li>
             <li class="center-flex">
-              <button class="btn" type="submit">
-                Get In Touch
-              </button>
+              <button class="btn" type="submit">Get In Touch</button>
             </li>
           </ul>
         </form>
       </section>
       <!-- end of contact form -->
     </main>
+
+    <script src="script.js"></script>
   </body>
 </html>
